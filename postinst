@@ -1,0 +1,8 @@
+#!/bin/sh
+mkdir -p /Library/ControlCenter/
+mkdir -p /Library/ControlCenter/Bundles/
+chown 0:0 /Library/ControlCenter/
+chown 0:0 /Library/ControlCenter/Bundles/
+chmod 777 /Library/ControlCenter/
+chmod 777 /Library/ControlCenter/Bundles/
+exit 0;
