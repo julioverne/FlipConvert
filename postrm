@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 arrBundles=(/Library/ControlCenter/Bundles/*)
 for ((i=0; i<${#arrBundles[@]}; i++)); do
     if [ -f ${arrBundles[$i]}/flag_ported_flipconvert ]; then
